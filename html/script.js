@@ -8,11 +8,11 @@ slides.forEach((slide, index) => {
 });
 const OpenUrl = (type) => {
   if(type == 'store') {
-      window.invokeNative('openUrl', "https://universerp-store.tebex.io/")
+      window.invokeNative('openUrl', "your server shop")
   }else if(type == 'discord') {
-      window.invokeNative('openUrl', "https://discord.gg/universeroleplay")
+      window.invokeNative('openUrl', "your server discord")
   }else if(type == 'tiktok') {
-      window.invokeNative('openUrl', "https://www.tiktok.com/@universeroleplay.pl")
+      window.invokeNative('openUrl', "your server tiktok")
   }
 }
 window.addEventListener('message', (event) => {
