@@ -1,5 +1,6 @@
-A simple FiveM loadingscreen
+Simple FiveM loadingscreen
 
-# Instructions
+## Installation
 
-Please insert your logo image file named `logo.png` into the `/html/assets` folder.
+Place your logo file named `logo.png` into the `/html/assets` folder.  
+Customize the loading screen by editing `/html/script.js` to change links in loadingscreen. 
